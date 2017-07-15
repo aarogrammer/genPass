@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "genPass",
+    "description": "This extension generates a random, secure password depending on your chosen level of security.",
+    "version": "1.0.0",
+    "icons": {
+        "16" : "./assets/img/icon16.png",
+        "48" : "./assets/img/icon48.png",
+        "128": "./assets/img/icon128.png"
+    },
+
+    "browser_action": {
+    "default_icon": "./assets/img/icon48.png",
+    "default_popup": "./assets/views/popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
